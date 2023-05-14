@@ -22,6 +22,7 @@ Button login1,signup1;
             public void onClick(View view) {
                 Intent i=new Intent(MainActivity.this,Loginpage.class);
                 startActivity(i);
+                finish();
             }
         });
 
@@ -30,6 +31,7 @@ Button login1,signup1;
             public void onClick(View view) {
                 Intent ii=new Intent(MainActivity.this,Signuppage.class);
                 startActivity(ii);
+                finish();
             }
         });
     }

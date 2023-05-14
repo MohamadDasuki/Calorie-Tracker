@@ -7,12 +7,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Signuppage">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/BTNback2"/>
 <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:layout_gravity="center"
-    android:layout_marginTop="100dp">
+    android:layout_marginTop="50dp">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -80,7 +85,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Enter Your Weight"
+        android:hint="Enter Your Weight in Kg"
         android:id="@+id/ETweight" />
     </LinearLayout>
     <LinearLayout
@@ -99,7 +104,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Enter Your Height"
+        android:hint="Enter Your Height in cm"
         android:id="@+id/ETheight" />
     </LinearLayout>
     <LinearLayout

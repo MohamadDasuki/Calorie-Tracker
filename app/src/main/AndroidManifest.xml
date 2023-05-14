@@ -12,6 +12,12 @@
         android:theme="@style/Theme.CSI370_project"
         tools:targetApi="31">
         <activity
+            android:name=".Fooddetails"
+            android:exported="false" />
+        <activity
+            android:name=".Foodlist"
+            android:exported="false" />
+        <activity
             android:name=".Profile"
             android:exported="false" />
         <activity

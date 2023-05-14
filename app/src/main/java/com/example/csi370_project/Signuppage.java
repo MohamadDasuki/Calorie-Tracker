@@ -71,6 +71,8 @@ Double BMR;
 
                 myDb.execSQL("INSERT INTO products VALUES('" + id2.getText() + "','" + username2.getText() + "','"+ age.getText() + "','" + weight.getText() + "','"+ height.getText() + "','" + gender.getSelectedItem().toString() + "','" + BMR.toString() + "');");
                 Toast.makeText(Signuppage.this, "Successfully Registered", Toast.LENGTH_SHORT).show();
+                Intent back = new Intent(Signuppage.this,Loginpage.class);
+                startActivity(back);
                 finish();
             }
         });

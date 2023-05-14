@@ -6,40 +6,103 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#C18FFF9D">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calorie Intake Tracker"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="35dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-thin" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="200dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:src="@drawable/calories"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome To Our Calories Calculation App!"
+        android:text="Welcome To Our Calorie Calculator App!"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        android:textSize="20dp"
-        android:textColor="#000000"/>
+        android:layout_marginTop="20dp"
+        android:textSize="28dp"
+        android:textColor="#000000"
+        android:layout_marginBottom="10dp"
+        android:gravity="center" />
 
     <TextView
-        android:layout_width="120dp"
-        android:layout_height="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="  Created by:         Anthony Alam Muhamad Dasuki Muhamad Dorra"
-        android:textSize="15dp"/>
+        android:text="Created by:"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Anthony Alam"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Mohamad Dasuki"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Mohamad Dorra"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginBottom="5dp"/>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:gravity="center">
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
         android:id="@+id/BTNlogin1"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:backgroundTint="#FFFFFF"
+        android:backgroundTintMode="add" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Signup"
+        android:text="Sign Up"
         android:id="@+id/BTNsignup1"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:backgroundTint="#FFFFFF"
+        android:backgroundTintMode="add" />
+    </TableRow>
+
 
 </LinearLayout>

@@ -49,6 +49,6 @@ We welcome contributions from the community to improve this calorie tracker appl
 This project is licensed under the MIT License.
 
 ## Contact
-If you have any questions or suggestions regarding the Calorie Tracker Android Application, please feel free to contact me at mohamad.dasuki@ghotmail.com.
+If you have any questions or suggestions regarding the Calorie Tracker Android Application, please feel free to contact me at [mohamad.dasuki@hotmail.com](mailto:mohamad.dasuki@hotmail.com).
 
 Thank you for using our app! We hope it helps you achieve your dietary goals. Happy tracking!
